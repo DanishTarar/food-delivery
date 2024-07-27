@@ -100,6 +100,7 @@ function Reinvent() {
   };
 
   return (
+    <>
     <div ref={containerRef} className="burger-container">
       <div className="burger-part bun-top" style={bunTopStyle}>
         <img src={buntop} alt="Bun Top" width="15%" />
@@ -128,8 +129,10 @@ function Reinvent() {
         <img src={bottom} alt="Bun Bottom" width="15%" />
       </div>
 
-
+      
     </div>
+   
+    </>
   );
 };
 
